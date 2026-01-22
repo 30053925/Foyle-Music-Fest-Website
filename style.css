@@ -1,0 +1,91 @@
+head {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #6b0000;
+    color: #ffffff;
+}
+.About {
+background-color: #424242;
+
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #218f39;
+    color: #ffffff;
+}
+.bar {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    list-style: none;
+    padding: 4px 16px 12px 32px;
+    display: flex;
+    gap: 16px;
+    background-color: #000000;
+    box-sizing: content-box;
+    width:10000%;
+    height: 60px;
+    position: relative;
+    bottom: 44px;
+    right: 8px;
+}
+.header {
+  width: 10000000%;
+}
+.park {
+    position: relative;
+    top: -60px;
+    right: 10%;
+    width: 122%;
+    height:48%;
+    padding: 0px,0px,0px,0px
+
+}
+.debris {
+  position: relative;
+  left: 63%;
+  top: -230px;
+  width: 40%;
+
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(255, 251, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+.title {
+  width: 100%;
+  position: relative;
+  right: 8px;
+  bottom: 22px; 
+  background-color: transparent;
+  padding: 12px 0px 0px 24px;
+  display: flex;
+  gap: 24px;
+  background-color: #000000;
+    list-style: none;
+
+}
+.txt
+{
+  padding: 0px,0px,0px,0px;
+  gap: 5px;
+  word-wrap: normal;
+
+}
