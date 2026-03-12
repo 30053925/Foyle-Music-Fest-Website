@@ -4,46 +4,51 @@ head {
     color: #ffffff;
 }
 .About {
-background-color: #424242;
+background-color: #007c1b;
 
 }
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: #218f39;
+    background: #007c1b;
     color: #ffffff;
 }
 .bar {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     list-style: none;
-    padding: 4px 16px 12px 32px;
+    padding: 0px 0px 0px 2vw;
     display: flex;
-    gap: 16px;
+    gap: 1vw;
     background-color: #000000;
     box-sizing: content-box;
-    width:100%;
+    width:100vw;
     height: 60px;
     position: relative;
     bottom: 44px;
     right: 8px;
 }
+.bar_txt{
+    height: 20vw;
+    row-gap:10vw;
+    
+
+}
 .header {
-  width: 100%;
+  width: 99%;
 }
 .park {
     position: relative;
     top: -60px;
-    right: 10%;
-    width: 122%;
+    right: 1%;
+    width: 100vw;
     height:48%;
     padding: 0px,0px,0px,0px
 
 }
 .debris {
-  position: relative;
-  left: 63%;
-  top: -230px;
-  width: 40%;
+  position: fixed;
+  width: 30vw;
+  left: 69vw;
 
 }
 a:link {
@@ -59,33 +64,33 @@ a:visited {
 }
 
 a:hover {
-  color: rgb(0, 255, 255);
+  color: rgb(255, 251, 189);
   background-color: transparent;
   text-decoration: none;
 }
 
 a:active {
-  color: rgb(255, 251, 0);
+  color: rgb(206, 0, 0);
   background-color: transparent;
   text-decoration: none;
 }
 .title {
-  width: 100%;
+  width: 100vw;
   position: relative;
   right: 8px;
   bottom: 22px; 
-  background-color: transparent;
-  padding: 12px 0px 0px 24px;
+  padding: 18px 0px 0px 26px;
   display: flex;
-  gap: 24px;
+  gap: 1%;
   background-color: #000000;
     list-style: none;
 
 }
 .txt
 {
+  width: 65vw;
   padding: 0px,0px,0px,0px;
-  gap: 5px;
+  gap: 1vw;
   word-wrap: normal;
 
 }
